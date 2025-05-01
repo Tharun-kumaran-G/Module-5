@@ -32,13 +32,45 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```
+#Reg_no: 212223060288
+#Name: Tharun Kumaran G
+
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+
+    def get_student_info(self):
+        return f"Name: {self.name}, ID: {self.student_id}"
+
+class Attendance(Student):
+    def __init__(self, name, student_id, attendance):
+        super().__init__(name, student_id)
+        self.attendance = attendance
+
+    def check_eligibility(self):
+        if self.attendance > 80:
+            return f"{self.get_student_info()} -> Eligible for next module (Attendance: {self.attendance}%)"
+        else:
+            return f"{self.get_student_info()} -> Not eligible for next module (Attendance: {self.attendance}%)"
+
+name_input = input("Enter student name: ")
+id_input = int(input("Enter student ID: "))
+attendance_input = int(input("Enter attendance percentage: "))
+
+student = Attendance(name_input, id_input, attendance_input)
+print("\n--- Eligibility Status ---")
+print(student.check_eligibility())
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/02f64511-9ab2-49f3-82b2-00ffb1146f84)
 
 ### RESULT
+
+Thus, the python program to get the name, attendance, and ID of a student and check if they are eligible for the next module using multiple inheritance has been executed and verified successfully.
 
 
 
