@@ -73,7 +73,7 @@ print(person.show_details())
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/7b62970b-b9a1-4abc-b80e-125970d69d68)
+![image](https://github.com/user-attachments/assets/f6e07559-3479-4d43-b602-06cba8555199)
 
 ### RESULT
 
