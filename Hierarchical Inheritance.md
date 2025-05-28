@@ -93,7 +93,7 @@ doctor.display_details()
 
 ### OUTPUT  
 
-![image](https://github.com/user-attachments/assets/ea1f4391-0011-444e-a3fb-7f59d8e419c2)
+![image](https://github.com/user-attachments/assets/3506037e-b28f-474b-945a-699c57597f0a)
 
 ### RESULT
 
