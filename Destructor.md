@@ -36,7 +36,7 @@ del s2
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/3490b2fe-998f-4ce3-bd31-6d5820937443)
+![image](https://github.com/user-attachments/assets/078aae07-6a4d-4565-a985-2b524f22f99d)
 
 ### RESULT
 
