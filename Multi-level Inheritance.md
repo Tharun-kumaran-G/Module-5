@@ -59,13 +59,12 @@ class DisplayDetails(PersonDetails):
     def show_details(self):
         return f"Name: {self.name}\nAge: {self.age}\nID: {self.person_id}"
 
-name_input = input("Enter name: ")
-age_input = int(input("Enter age: "))
-id_input = int(input("Enter ID: "))
+name_input = input()
+age_input = int(input())
+id_input = int(input())
 
 person = DisplayDetails(name_input, age_input, id_input)
 
-print("\n--- Person Details ---")
 print(person.show_details())
 
 
@@ -73,7 +72,7 @@ print(person.show_details())
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/f6e07559-3479-4d43-b602-06cba8555199)
+![image](https://github.com/user-attachments/assets/7b4230e6-eb29-419c-9660-3c0f1ca760af)
 
 ### RESULT
 
