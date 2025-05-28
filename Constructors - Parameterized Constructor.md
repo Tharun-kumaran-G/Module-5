@@ -33,8 +33,8 @@ class Person:
         self.userid = userid
         print("User ID:", self.userid)
 
-name_input = input("Enter your name: ")
-userid_input = input("Enter your userid: ")
+name_input = input()
+userid_input = input()
 
 s1 = Person(name_input, userid_input)
 
@@ -42,7 +42,7 @@ s1 = Person(name_input, userid_input)
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/ba742b91-fa2f-4908-a0a3-728b1c498c05)
+![image](https://github.com/user-attachments/assets/6eca85cd-b56a-4e7e-ad9c-6a5dab3da7b9)
 
 ### RESULT
 
