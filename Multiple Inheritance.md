@@ -54,9 +54,9 @@ class Attendance(Student):
         else:
             return f"{self.get_student_info()} -> Not eligible for next module (Attendance: {self.attendance}%)"
 
-name_input = input("Enter student name: ")
-id_input = int(input("Enter student ID: "))
-attendance_input = int(input("Enter attendance percentage: "))
+name_input = input()
+id_input = int(input())
+attendance_input = int(input())
 
 student = Attendance(name_input, id_input, attendance_input)
 print("\n--- Eligibility Status ---")
@@ -66,7 +66,7 @@ print(student.check_eligibility())
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/02f64511-9ab2-49f3-82b2-00ffb1146f84)
+![image](https://github.com/user-attachments/assets/3bc60cd6-6e75-417e-b890-be9050914684)
 
 ### RESULT
 
